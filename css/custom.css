@@ -1,0 +1,218 @@
+/*This is a custom css stylesheet for the Pied Piper Website*/
+
+body { 
+	font-family: 'Josefin Sans' 400, sans-serif;
+	height: 2000px;
+}
+
+a {
+	color: #116e38;
+}
+p {
+	color: #116e38;
+}
+
+.hero {
+	background-image: url(../img/heroimage.jpg);
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-attachment: fixed;
+}
+
+/* BACK TO TOP ICON */
+#chaser {
+	display:none;
+}
+
+#chaser img {
+	width:50px;
+	height: 50px;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;			
+}
+
+/*ABOUT SECTION STYLES */
+
+.about {
+	color: #116e38;
+	background-color: #fff;
+}
+
+#about p {
+	padding-top: 20px;
+	font-size: 1.5em;
+}
+
+p.bottom {
+	padding-bottom: 20px;
+}
+#about h2 {
+ 	color: #116e38;
+ }
+
+ /* MEET THE LEADERS STYLES */
+
+#meet {
+	background-color: #000;
+}
+
+#meet h2 {
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#meet h4 {
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+#meet button {
+	margin-top: 10px;
+	margin-bottom: 20px;
+  	padding:1% 2%;
+  	font-size:1.15em;
+  	background-color: #116e38;
+  	border:1px solid transparent;
+  	-webkit-transition:all .5s ease-in;
+  	-ms-transition:all .5s ease-in;
+  	-o-transition:all .5s ease-in;
+  	transition:all .5s ease-in;
+}
+
+#meet button:hover {
+	color:black;
+  	border:1px solid #116e38;
+  	background-color:#fff;
+  	-webkit-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px;
+}
+
+/*NEWS SECTION STYLES */
+
+#news {
+	background-color: #116e38;
+}
+
+#news h2 {
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+#news h3 {
+	color: #fff;
+	padding-bottom: 5px;
+}
+
+#news h4 {
+	color: #bcd8b7;
+}
+
+#news .grow { 
+	transition: all .2s ease-in-out; 
+}
+
+#news .grow:hover { 
+	transform: scale(1.05); 
+}
+
+/* SUBSCRIBE FORM STYLING */
+
+#newslettersubscribeform h3 {
+	color: #fff;
+} 
+
+#newslettersubscribeform label {
+	color: #fff;
+}
+
+#newslettersubscribeform input {
+	background-color: #bcd8b7;
+	width: 95%;
+  	padding: 0.5em 0.5em;
+  	font-size: 1.2em;
+  	border-radius: 3px;
+  	border: 1px solid #4d4d4d;
+}
+
+#newslettersubscribeform textarea {
+	background-color: #bcd8b7;
+	height: 43px;
+	width: 95%;
+  	padding: 0.5em 0.5em;
+  	font-size: 1.2em;
+  	border-radius: 3px;
+  	border: 1px solid #4d4d4d;
+}
+
+#newslettersubscribeform .field {
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+button.newsbutton {
+	color : #116e38;
+	margin-top: 72px;
+	background-color: #fff;
+	border-radius: 3px;
+  	border: 1px solid #4d4d4d;
+}
+
+label {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  color: #fff;
+}
+
+/* NEW ARTICLE PAGES STYLES */
+
+#newsarticle h2 {
+	color: #116e38;
+	padding-bottom: 20px;
+}
+
+p.newsarticle {
+	color: #116e38;
+	font-size: 1.5em;
+}
+
+ /* Gallery Styles */
+
+#gallery .container {
+	padding-bottom: 50px;
+}
+
+#gallery {
+	background-color: #000;
+}
+
+#gallery h3 {
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+#footer {
+	background-color: #bcd8b7;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#footer h5 {
+	color: #116e38;
+}
+
+#footer h6 {
+	color: #116e38;
+}
+
+/* MODAL STYLES */
+
+#modals h4 {
+	color: #116e38;
+}
+
+
+
